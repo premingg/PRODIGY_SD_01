@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Temperature Converter</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h2>Temperature Converter</h2>
+    <label for="temp">Enter Temperature:</label>
+    <input type="number" id="temp" placeholder="Enter temperature value" />
+
+    <label for="unit">Select Unit:</label>
+    <select id="unit">
+      <option value="celsius">Celsius <i class="fas fa-thermometer-half"></i></option>
+      <option value="fahrenheit">Fahrenheit <i class="fas fa-thermometer-three-quarters"></i></option>
+      <option value="kelvin">Kelvin <i class="fas fa-thermometer-empty"></i></option>
+    </select>
+
+    <button onclick="convertTemperature()">Convert</button>
+    <button id="theme-toggle" onclick="toggleTheme()">
+      <i class="fas fa-moon"></i> Dark Mode
+    </button>
+
+    <div class="output" id="result"></div>
+    <div class="history" id="history"></div>
+  </div>
+  <footer>
+    <p>Created by Prem Kumar </p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
