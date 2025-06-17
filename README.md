@@ -11,7 +11,7 @@ A simple and interactive web app to convert temperatures between Celsius, Fahren
 
 ## Demo
 
-![Screenshot]![](image.png)
+![Screenshot](image.png)
 
 ## How to Use
 
@@ -20,14 +20,23 @@ A simple and interactive web app to convert temperatures between Celsius, Fahren
 3. Click **Convert** to see results.
 4. Use the **Theme Toggle** button to switch between Light and Dark mode.
 
+##  Live Demo
+
+👉 [Click here to view the project live](https://premingg.github.io/PRODIGY_SD_01/)
+
 ## Getting Started
 
-1. **Clone or download this repository**  
-   ```
-   git clone https://github.com/YOUR-USERNAME/YOUR-REPO.git
-   ```
-2. **Open `index.html` in your browser**  
-   No installation needed!
+To run this project on your local machine:
+
+1. Clone the repository
+   git clone https://github.com/premingg/PRODIGY_SD_01.git
+
+2. Open the project folder
+
+3. Double-click index.html or open it in your web browser.
+
+ No installation or setup is needed — it's a simple static HTML/CSS/JS project!
+
 
 ## Author
 
